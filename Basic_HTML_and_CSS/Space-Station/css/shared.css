@@ -37,7 +37,7 @@ h1 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
-h1::after {/*This is the underline */
+h1::after { /*This is the underline */
     display: block;
     content: "";
     height: 2px;
@@ -62,7 +62,7 @@ h4 {
     line-height: 40px; 
     padding-bottom: 0px;
     font-size: 22px;
-    font-weight; 900;
+    font-weight: 900;
 }
 
 p {
@@ -87,7 +87,7 @@ section {
 .navbar {
     height:105px;
     max-height: 340px;
-    display: inline-block;
+    display: block;
 }
 
 .container-fluid {
@@ -127,10 +127,10 @@ section {
     margin: 0% auto;
     content: " ";
     /*top: 0;
-    left: 0; */
+    left: 0; 
     /* position: absolute; */ /* to the top edge of the screen */
-    width: 100@;
-    position: fixed; 
+    width: 100;
+    position: center; 
     z-index: 100;
     /* background-color: rgba(255, 255, 255, 0.5);*/
 }
@@ -160,12 +160,19 @@ section {
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
-    text-align: left;
+    text-align: center;
     font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
     border: 5px double #fff;
     padding: 10px;
+}
+
+.head-sub-main {
+    font-size: 23px ;
+    font-wight: 500;
+    padding: 50px 20px 10px 20px;
+    text-transformation: uppercase;
 }
 
 .head-last {
@@ -179,7 +186,7 @@ section {
 /*---------------------------------------
     Contact STYLES
 ----------------------------------------*/
-.flex-container{
+.flex-container {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
@@ -200,7 +207,7 @@ section {
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100, 65, 0, .3);
-    box-shadow: -px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0,0,0, 0.5);
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0,0,0, 0.5);
 }
 
 .reservation h2 {
@@ -242,7 +249,7 @@ section {
     border: 1px solid #808080;
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb (277, 222, 222);
+    background: rgb(277, 222, 222);
     box-shadow: 2px 3px 3px 0px, rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }
@@ -269,11 +276,7 @@ section {
     box-shadow: 0 0 18px rgba(100, 65, 0, .8);
 }
 
-.reservation p {
-    color: #13161B;
-    width: 50%;
-    margin: 0 auto;
-}
+
 
 .reservation form {
     font-size: 15px;
@@ -287,29 +290,7 @@ section {
     border-radius: 7px;
     background: rgb(227, 222, 222);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
-    font-family: 'Raleway', sans-serif;
-}
-
-.reservation input[type="tex"] {
-    font-size: 15px;
-    outline: none;
-    font-weight: 600;
-    color: #8D8E8F;
-    padding: 2% 1% 2% 7%;
-    width: 80%;
-    border-top: 1px solid #090B0D;
-    border-right: 2px solid #424549;
-    border-bottom: 2px solid #424549;
-    border-left: 1px solid #090BOD;
-    margin: 10px 1em;
-    border-radius: 7px;
-    background: #13161B;
-    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
     font-family: 'Raleyway', sans-serif;
-}
-
-.reservation input[type="text"]: hover {
-    box-shadow: 0 0 18px rgba(100, 65, 0, .8);
 }
 
 .form-spacer {
@@ -317,18 +298,15 @@ section {
 }
 
 .terms {
-    margin: 30px 1px 0 0;
-    margin-top: 13%;
-    padding-left: 52px; 
+    margin: 32px 1px 0 0;
+    padding: 52px; 
     font-size: 14px;
     line-height: 5px;
     color: #000;
     cursor: pointer;
-    font-family: 'Raley', sans-serif;
+    font-family: 'Raleyway', sans-serif;
     font-weight: 600;
-    position: relative;
-    display: inline;
-    float: right;
+
 }
 
 .terms:hover{
@@ -336,7 +314,7 @@ section {
     text-decoration: underline;
 }
 
-.submit input[type="submut"]{
+.submit input[type="submit"]{
     color: rgb(255, 255, 255);
     cursor: pointer;
     border: none;
