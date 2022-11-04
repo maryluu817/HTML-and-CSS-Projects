@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px}
+h1 {
+    font: size 100px;}
+h2 {
+    font-size: 3em;}
+
+/*-----------------------------------
+    CONTACT STYLE
+------------------------------------*/
+
+#contact{
+    background-color: #f5f3f3;
+
+.reservation {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100, 65, 0, .3);
+    box-shadow: -px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0,0,0, 0.5);
+
+.reservation h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161B;
+    font-weight: 500;
+    font-size: 1.3em;
+    letter-spacing: 0 pt;
+    word-spacing: 0 pt;
+    }
+
+.reservation input[type='text'] {
+    font-size: 35px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 10px 20px;
+    width: 80%;
+    border-top: 1px solid #090B0D;
+    border-right: 10px solid #424549;
+    border-bottom: 10px solid #424549;
+    border-left: 10px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 15px;
+    background: #13161B;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+    font-family: 'Raley', sans-serif;
