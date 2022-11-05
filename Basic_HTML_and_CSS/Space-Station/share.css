@@ -269,49 +269,6 @@ section {
     box-shadow: 0 0 18px rgba(100, 65, 0, .8);
 }
 
-.reservation p {
-    color: #13161B;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.reservation form {
-    font-size: 15px;
-    outline: none;
-    font-weight: 600;
-    color: #8D8E8F;
-    padding: 12px 12px;
-    width: 70%;
-    border: 1px solid #808080;
-    margin: 2% auto;
-    border-radius: 7px;
-    background: rgb(227, 222, 222);
-    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
-    font-family: 'Raleway', sans-serif;
-}
-
-.reservation input[type="tex"] {
-    font-size: 15px;
-    outline: none;
-    font-weight: 600;
-    color: #8D8E8F;
-    padding: 2% 1% 2% 7%;
-    width: 80%;
-    border-top: 1px solid #090B0D;
-    border-right: 2px solid #424549;
-    border-bottom: 2px solid #424549;
-    border-left: 1px solid #090BOD;
-    margin: 10px 1em;
-    border-radius: 7px;
-    background: #13161B;
-    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
-    font-family: 'Raleyway', sans-serif;
-}
-
-.reservation input[type="text"]: hover {
-    box-shadow: 0 0 18px rgba(100, 65, 0, .8);
-}
-
 .form-spacer {
     padding: 30px 39px;
 }
